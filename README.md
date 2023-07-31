@@ -15,3 +15,16 @@ dbms.h: Header file containing the declaration of the DBMS class.
 dbms.cpp: Source file containing the implementation of the DBMS class methods.
 
 main.cpp: Source file containing the main() function to run the DBMS.
+
+## Available Commands
+#### create table tableName { columnName1, columnName2, ... }: 
+Create a new table with the specified tableName and columns listed within the curly braces.
+
+#### insert into tableName { data1, data2, ... }: 
+Insert data into the table with the specified tableName.
+
+#### delete from tableName { condition }: 
+Delete data from the table with the specified tableName based on the specified condition.
+
+#### exit: 
+Exit the DBMS.
