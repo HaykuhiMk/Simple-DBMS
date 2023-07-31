@@ -2,11 +2,11 @@
 This is a simple Database Management System (DBMS) project implemented in C++. The project provides basic functionalities to create
 tables, insert data, delete data, and show existing tables.
 ## How to Use
-1.Clone the repository:
+1. Clone the repository:
 #### git clone https://github.com/your-username/dbms-project.git
-2.Compile the source code:
+2. Compile the source code:
 #### g++ -o dbms dbms.cpp main.cpp
-3.Run the executable:
+3. Run the executable:
 #### ./dbms
 
 ## Project Structure
@@ -28,3 +28,10 @@ Delete data from the table with the specified tableName based on the specified c
 
 #### exit: 
 Exit the DBMS.
+
+## Important Notes
+1. Each table is stored in a text file named tableName.txt, where tableName is the name of the table.
+
+2. The metadata containing the list of tables and their column names is stored in the meta.txt file.
+
+3. The data should be provided within curly braces when using the insert and delete commands.
